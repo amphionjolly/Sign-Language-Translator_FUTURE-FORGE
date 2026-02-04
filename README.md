@@ -1,27 +1,27 @@
 # Sign Language Detection with YOLOv8
 
 ## Authors
-- [@josemaese](https://github.com/JoseMaese)
-- [@santiagomoreno0123](https://github.com/santiagomoreno0123)
+- Amphion Jolly
+- Niranjan T Menon
+- Flourish Joby
+- Oliver Christo George
 
 ## Overview
-This project, named "Sign Language Detection with YOLOv8," utilizes a Raspberry Pi equipped with a webcam and a Sense HAT module to detect sign language gestures. The detected signs are displayed on the Sense HAT LED matrix and also vocalized through a Bluetooth-connected speaker.
+This project, named "Sign Language Translator" is made for communication between verbal and non-verbal people. The system is made on Python. It is open source and free to use, it can be used without any intenet connections. 
 
 ## Prerequisites
-Before running the project, ensure you have the following components and libraries installed:
-
-- Raspberry Pi with Sense HAT module
+Before running the project, ensure you have the following components and libraries installed
 - Webcam
-- Bluetooth speaker
+- Speaker
 - OpenCV
 - Ultralytics YOLOv8
-- Python libraries: `sense-hat`, `pygame` (for sound), and other dependencies listed in the code.
+- Python libraries: opencv-python, yolo, ultralytics, pyttsx3
 
 ## Setup
 1. Clone the repository:
     ```bash
-    git clone https://github.com/JoseMaese/Sign-Language-Detection-YOLO.git
-    cd Sign-Language-Detection-YOLOv8
+    git clone [https://github.com/amphionjolly/Sign-Language-Translator_FUTURE-FORGE/]
+    cd Sign-Language-Translator
     ```
 
 2. Install required dependencies:
@@ -36,10 +36,7 @@ Before running the project, ensure you have the following components and librari
 ## Usage
 Run the main script:
 ```bash
-python sign_language_detection.py
+python main.py
 ```
 
-## Training results
-[![Training results](Images/graficas_sign_language.png)](Images/graficas_sign_language.png)
-[![Confusion matrix](Images/matriz.png)](Images/matriz.png)
 

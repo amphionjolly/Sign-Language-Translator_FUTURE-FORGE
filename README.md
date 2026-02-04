@@ -1,4 +1,4 @@
-# Sign Language Detection with YOLOv8
+# Sign Language Translator
 
 ## Authors
 - Amphion Jolly
